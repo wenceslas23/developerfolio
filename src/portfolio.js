@@ -201,7 +201,7 @@ const bigProjects = {
   subtitle: "Mes certifications, attestations ou récompenses. 🏆 ",
   projects: [
     {
-      image: require("./assets/images/ats.jpg"),
+      image: require("./assets/images/ats.png"),
       projectName: "Participation au Sambas Professionnels",
       projectDesc: "Atelier Entrepreunariat: Comment passer du business à une entreprise et comment vivre tout de l'intérieur vers l'extérieur",
       footerLink: [
