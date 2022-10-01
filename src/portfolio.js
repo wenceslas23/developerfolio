@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Wenceslas Thamar",
+  title: "Je suis, Wenceslas DEKO",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Référent digital de formation, je possède de multiples compétences transversales 🚀 que je vous invite à découvrir au cours de votre navigation sur ce portfolio."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/wenceslas23",
+  linkedin: "https://www.linkedin.com/in/wenceslas-dekomarowski-b15ab8183/",
+  gmail: "wenceslasthamar@hotmail.com",
+  facebook: "https://www.facebook.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,74 +45,24 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "À propos de moi",
+  subTitle: "Je suis spécialisé dans les CMS tel que wordPress/Shopify & la gestion de projets Agile ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Passionné du numérique depuis mon enfance, et fort de ma formation professionnelle au métier de référent digital, j’ai divers acquis et compétences qui font ma polyvalence."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("Autonome, enthousiaste, organisé, rigoureux dans le travail, voici une liste non-exhaustive de compétences transversales et de valeurs sur lesquelles se basent les fondements de mon éthique professionnelle."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Je vous invite à consulter mon CV pour plus d’informations."
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+ softwareSkills: [
+    
+    
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +73,42 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Ecole241",
+      logo: require("./assets/images/logoecole241.png"),
+      subHeader: "CERTIFICAT SIMPLON / OIF",
+      duration: "février 2022 - Septembre 2022",
+      desc: "Formation au métier de Référent Digital",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Creation de site web",
+        "Design, Community Management",
+        "Marketing Digital, Gestion de projet"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Institut Des Techniques Avancées (Libreville)",
+      logo: require("./assets/images/logoITA.png"),
+      subHeader: "3ème année en Informatique de Gestion (Option Développeur d’Application)",
+      duration: "2019-2020",
+    },
+
+    {
+      schoolName: "Institut Des Techniques Avancées (Libreville)",
+      logo: require("./assets/images/logoITA.png"),
+      subHeader: "2ème année en Informatique de Gestion (Option Développeur d’Application)",
+      duration: "2018-2019",
+    },
+    {
+      schoolName: "Institut Des Techniques Avancées (Libreville)",
+      logo: require("./assets/images/logoITA.png"),
+      subHeader: "1 ère année en Informatique de Gestion (Option Développeur d’Application)",
+      duration: "2017-2018",
+    },
+
+    {
+      schoolName: "Lycée Privée les Aiglons (Moanda)",
+      logo: require("./assets/images/Aiglons.jfif"),
+      subHeader: "Baccalauréat littéraire (série A1)",
+      duration: "2015-2016",
     }
   ]
 };
@@ -153,15 +119,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Wordpress", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "HTML & CSS",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Community Manager",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Canva",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Photoshop",
       progressPercentage: "60%"
     }
   ],
@@ -174,30 +148,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Assistant virtuel / Développeur web",
+      company: "FFREELANCE",
+      companylogo: require("./assets/images/free.png"),
+      date: "Mars 2020 – aujourd'hui",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Maintenance et amélioration sites web existants (wordpress)",
+        "Résolution des problèmes de plugin",
+        "Migration de site Web",
+        "-Saisie de données",
+        "Saisie de fiches produits dans des boutiques en ligne",
+        "Mise en page, mise en forme de document"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Suivie des projets de la transformation numérique",
+      company: "COMILOG (Moanda)",
+      companylogo: require("./assets/images/comilog.jpg"),
+      date: "Aout 2019 – Janvier 2020",
+      descBullets: [
+        "Test des applications mobiles et site web (test de comptabilité,fonctionnelle, de performance, bugs)",
+        "Participer au devellopement de l'application Ecomilog",
+        "Révision des sites internet (forme et contenu)",   
+      ]   } 
+    ,
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Technicien en maintenance Informatique / Aide électricien",
+      company: "EGEAI (Moanda)",
+      companylogo: require("./assets/images/geai.png"),
+      date: " Juillet – septembre 2018",
+      descBullets: [
+        "Suivie des installations électriques de COMILOG (Moanda)",
+        "Diagnostiquer les pannes, mettre à jour les logiciels et supprimer les virus",
+        "Réparation ou remplacement du matériel informatique défectueux au sein de l’entreprise",
+
+      ]    }
   ]
 };
 
@@ -212,29 +197,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Certifications",
+  subtitle: "Mes certifications, attestations ou récompenses. 🏆 ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ats.jpg"),
+      projectName: "Participation au Sambas Professionnels",
+      projectDesc: "Atelier Entrepreunariat: Comment passer du business à une entreprise et comment vivre tout de l'intérieur vers l'extérieur",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Dévouvrir les Sambas",
+          url: "https://www.facebook.com/LesSambasProfessionnels"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/googlecert.jpg"),
+      projectName: "Google Ateliers Numériques",
+      projectDesc: "Les principes fondamentaux du marketing numérique",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Vérifiez l'autenticité du certificat",
+          url: "https://learndigital.withgoogle.com/ateliersnumeriques/validate-certificate-code"
         }
       ]
     }
@@ -246,57 +231,46 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Réalisations 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Les fruits d’un travail de qualité!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Chef d'équipe technique",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Conception du site web des Sambas Professionnels",
+      image: require("./assets/images/sambas1.png"),
+      imageAlt: "Sambas Professionnels",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "sambasprofessionnel.org",
+          url: "tedusite2.ga"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Reproduction du site remesh.ai",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Languages utilisés: HTML, CSS,JAVA SCRIPT",
+      image: require("./assets/images/remesh.png"),
+      imageAlt: "remesh",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Voir la reproduction",
+          url: "https://remesh.netlify.app/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Reproduction du site biografrik.co ",
+      subtitle: "Languages utilisés: HTML, CSS",
+      image: require("./assets/images/bioga.png"),
+      imageAlt: "bioga",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Voir la reproduction", url: ""},
       ]
     }
   ],
@@ -324,7 +298,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +317,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +330,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactez Moi ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Vous avez besoin de mes services ? Vous pouvez me joindre en utilisant les coordonnées ci-dessous.",
+  number: "(+241) 077 05 30 32 / 062 56 26 05",
+  email_address: "wenceslasthamar@hotmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

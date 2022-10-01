@@ -9,12 +9,12 @@ export default function GithubProfileCard({prof}) {
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
-    prof.hireable = "No";
+    prof.hireable = "no";
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title">Reach Out to me!</h1>
+        <h1 className="prof-title">Merci</h1>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
@@ -52,6 +52,7 @@ export default function GithubProfileCard({prof}) {
             <img
               src={prof.avatarUrl}
               alt={prof.name}
+              // eslint-disable-next-line react/jsx-no-duplicate-props
               className="profile-image"
             />
           </div>
