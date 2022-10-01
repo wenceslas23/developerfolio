@@ -213,7 +213,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/googlecert1.jpg"),
+      image: require("./assets/images/googlecert1.png"),
       projectName: "Google Ateliers Numériques",
       projectDesc: "Les principes fondamentaux du marketing numérique",
       footerLink: [
