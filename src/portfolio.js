@@ -201,7 +201,7 @@ const bigProjects = {
   subtitle: "Mes certifications, attestations ou récompenses. 🏆 ",
   projects: [
     {
-      image: require("./assets/images/ats.jpg"),
+      image: require("./assets/images/ats1.jpg"),
       projectName: "Participation au Sambas Professionnels",
       projectDesc: "Atelier Entrepreunariat: Comment passer du business à une entreprise et comment vivre tout de l'intérieur vers l'extérieur",
       footerLink: [
@@ -213,7 +213,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/googlecert.jpg"),
+      image: require("./assets/images/googlecert1.jpg"),
       projectName: "Google Ateliers Numériques",
       projectDesc: "Les principes fondamentaux du marketing numérique",
       footerLink: [
