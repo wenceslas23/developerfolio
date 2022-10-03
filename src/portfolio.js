@@ -26,7 +26,7 @@ const greeting = {
     "Référent digital de formation, je possède de multiples compétences transversales 🚀 que je vous invite à découvrir au cours de votre navigation sur ce portfolio."
   ),
   resumeLink:
-    "#", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mD9885tSR3K0yIZQsj8m02bFIQ0uTh2s/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -270,7 +270,25 @@ const achievementSection = {
       image: require("./assets/images/bioga.png"),
       imageAlt: "bioga",
       footerLink: [
-        {name: "Voir la reproduction", url: ""},
+        {name: "Voir la reproduction", url: "https://reproduction-biografrik.netlify.app/"},
+      ]
+    },
+    {
+      title: "Reproduction du site kadmarket.shop ",
+      subtitle: "Languages utilisés: HTML, CSS",
+      image: require("./assets/images/k.png"),
+      imageAlt: "kadmarket",
+      footerLink: [
+        {name: "Voir la reproduction", url: "https://kadmarket.netlify.app/"},
+      ]
+    },
+    {
+      title: "Reproduction du site MoovAfricaGabon T ",
+      subtitle: "Languages utilisés: HTML, CSS",
+      image: require("./assets/images/gt.png"),
+      imageAlt: "GabonTelecom",
+      footerLink: [
+        {name: "Voir la reproduction", url: "https://moovafricagabontelecom.netlify.app"},
       ]
     }
   ],
