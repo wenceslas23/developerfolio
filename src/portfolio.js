@@ -150,7 +150,7 @@ const workExperiences = {
  
     {
       role: "Assistant virtuel / Développeur web",
-      company: "FFREELANCE",
+      company: "FREELANCE",
       companylogo: require("./assets/images/free.png"),
       date: "Mars 2020 – Septembre 2022",
       descBullets: [
