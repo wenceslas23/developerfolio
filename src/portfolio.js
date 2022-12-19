@@ -147,6 +147,22 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+ 
+    {
+      role: "Assistant virtuel / Développeur web",
+      company: "FFREELANCE",
+      companylogo: require("./assets/images/free.png"),
+      date: "Mars 2020 – aujourd'hui",
+      descBullets: [
+        "Maintenance et amélioration sites web existants (wordpress)",
+        "Résolution des problèmes de plugin",
+        "Migration de site Web",
+        "-Saisie de données",
+        "Saisie de fiches produits dans des boutiques en ligne",
+        "Mise en page, mise en forme de document"
+      ]
+    },
+    
     {
       role: "Assistant virtuel / Développeur web",
       company: "FFREELANCE",
